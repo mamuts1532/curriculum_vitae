@@ -34,5 +34,8 @@ urlpatterns = [
 
     #path('skills/', include('skills.urls', namespace='skills')),
     path('', include('skills.urls')),
+    path('', include('FormAcad.urls')),
+    path('', include('FormEsp.urls')),
+
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
