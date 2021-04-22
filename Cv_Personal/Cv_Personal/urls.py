@@ -36,6 +36,6 @@ urlpatterns = [
     path('', include('skills.urls')),
     path('', include('FormAcad.urls')),
     path('', include('FormEsp.urls')),
-
+    path('', include('Certificados.urls')),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

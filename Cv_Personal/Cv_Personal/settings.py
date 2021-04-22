@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'accounts',
     'skills',
     'FormAcad',
-    'FormEsp'
+    'FormEsp',
+    'Certificados'
 ]
 
 MIDDLEWARE = [
