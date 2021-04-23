@@ -1,9 +1,9 @@
 from django.shortcuts import render
-#from FormAcad.models import FormAcadModel
+from Certificados.models import CertificadosModel
 from django.views.generic import (TemplateView, ListView)
 
 #Create your views here.
-class CertificadosView(TemplateView):
-    #model = FormAcadModel
-    #context_object_name = 'certificadosview'
+class CertificadosView(ListView):
+    model = CertificadosModel
+    context_object_name = 'certificadosview'
     template_name = 'Certificados/certificados.html'

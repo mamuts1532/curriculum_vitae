@@ -37,5 +37,6 @@ urlpatterns = [
     path('', include('FormAcad.urls')),
     path('', include('FormEsp.urls')),
     path('', include('Certificados.urls')),
+    path('', include('Experience.urls')),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
