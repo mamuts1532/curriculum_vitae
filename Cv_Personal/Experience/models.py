@@ -16,8 +16,6 @@ class ExperienceModel(models.Model):
 
     @property
     def age_in_months(self):
-        print('end_date: ',self.end_date)
-        print('start_date: ',self.start_date)
         if self.end_date == date(1984, 11, 24):
             end_date_today = date.today()
             num_months = (end_date_today.year - self.start_date.year) * 12 + (end_date_today.month - self.start_date.month)
@@ -44,3 +42,6 @@ class ExperienceModel(models.Model):
     @register.filter
     def get_type(value):
         return type(value)
+
+
+

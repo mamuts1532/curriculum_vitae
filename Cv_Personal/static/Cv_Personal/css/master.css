@@ -44,6 +44,10 @@
 
 }
 
+.pagination {
+  padding-top: 5px;
+}
+
 /* ############################################### -- Sidebar --####################################################### */
 
 .image-center-sidebar {
@@ -328,7 +332,7 @@
 }
 
 .custom-column-header {
-  font-size: 20px;
+  font-size: 16px;
   background-color: #555555;  
   color: white;
   padding: 15px;  
@@ -340,6 +344,7 @@
   background-color: #fff;
   border: 1px solid white;  
   padding: 5px;  
+  /* min-height: 380px; */
 }
 
 .custom-column-footer {
